@@ -1,0 +1,30 @@
+<html> 
+<head> 
+<title>Book form</title> 
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"> 
+</head> 
+<body> 
+<center> 
+<form name="bookform" method="post" action="book1.php"> 
+<h2 align="center">BOOK DETAILS</h2> 
+<table border="2" align="center"> 
+<tr><td>Accession No:</td> 
+ <th><input type="text" name="ano" value=""></th></tr> 
+<tr><td>Title:</td> 
+ <th><input type="text" name="title" value=""></th></tr> 
+<tr><td>Author:</td> 
+ <td><input type="text" name="author" value=""></td></tr> 
+<tr><td>Edition:</td> 
+ <td><input type="number" name="edition" value=""></td></tr> 
+<tr><td>Publisher:</td> 
+ <td><input type="text" name="publisher" value=""></td></tr> 
+<tr><td><input type="submit" name="submit" value="SUBMIT"></td></tr> 
+</table> 
+</form> 
+<form name="newform" method="post" action="display.php"><h2>TO DISPLAY 
+DATA BASED ON TITLE: <input type="text" name="display"></br> 
+<input type="submit" name="submit1" value="DISPLAY"></h2> 
+</form> 
+</center> 
+</body> 
+</html> 
